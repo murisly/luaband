@@ -39,7 +39,7 @@ int getBuffer(LPCSTR lpFilePath, std::vector<char>& vecBuff) {
 
 int LuaManager() {
 	std::vector<char> vecBuff;
-	getBuffer(("123.lua"), vecBuff);
+	getBuffer(("test.lua"), vecBuff);
 	bool bRet = CLuaEngineMgr::GetInstance()->Excute(vecBuff, NULL, _T("0000"), _T("Main"));
 	return bRet;
 }
@@ -53,7 +53,7 @@ int LuaEngineTest()
 	CScriptLibStorage* lpLuaStorge = new CScriptLibStorage;
 	lEngineTest->SetStorage(lpLuaStorge);
 	lEngineTest->Open();
-	lEngineTest->Load(_T("123.lua"));
+	lEngineTest->Load(_T("test.lua"));
 	lEngineTest->Invoke(_T("add"), rdp, rvarRes);
 
 	int i = rvarRes.getValue<int>();
@@ -66,7 +66,7 @@ int LuaEngineTest()
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	LuaEngineTest();
+	LuaManager();
 	//system("pause");
 	return 0;
 }
