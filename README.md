@@ -1,5 +1,5 @@
 ﻿# Luaband
-整体结构![image](https://github.com/murisly/luaband/tree/master/img/struct.jpg)
+整体结构![image](https://github.com/murisly/luaband/blob/master/img/struct.jpg)
 
 本项目用visual studio 2012 编译，需要用到部分windows头文件。
 
