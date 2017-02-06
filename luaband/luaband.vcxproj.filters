@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="bind">
+      <UniqueIdentifier>{b894beb3-f5cd-4d5a-914c-3fddf92b7822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bind\enginehelp">
+      <UniqueIdentifier>{0f6daeb5-9f6c-4ce8-8fd3-8cf36aa8ab1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bind\interface">
+      <UniqueIdentifier>{d13b8d4d-86b3-49e0-bf3c-412a0359043e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bind\lua_src">
+      <UniqueIdentifier>{83ee39bd-2898-4f7e-a284-6302f72f8ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bind\lua_src\lua">
+      <UniqueIdentifier>{22697ba7-fa2a-4e93-ab42-5e06ffc56693}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bind\strings">
+      <UniqueIdentifier>{417b1fed-a75a-49f9-b2ef-b0abe3fcf7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bind\memory">
+      <UniqueIdentifier>{3eaedcc3-f8b5-421a-840d-e68c03f46d78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bind\manager">
+      <UniqueIdentifier>{d8a67613-2348-4deb-9e0a-588a796947c4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\iLuaAcitveScriptImpl.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\iLuaScriptEngineImpl.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\LuaDebug.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\LuaEngine.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\LuaHelper.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\LuaVariantTable.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\LuaVarint.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\rtlbase.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\rtlmem.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\ScriptLibStorage.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\Variant.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\interface\ILuaApi.h">
+      <Filter>bind\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\interface\ILuaScriptHost.h">
+      <Filter>bind\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\interface\IScriptLibStorage.h">
+      <Filter>bind\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lapi.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lauxlib.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lcode.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lctype.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\ldebug.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\ldo.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lfunc.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lgc.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\llex.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\llimits.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lmem.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lobject.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lopcodes.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lparser.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lstate.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lstring.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\ltable.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\ltm.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lua.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lua.hpp">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\luaconf.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lualib.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lundump.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lvm.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\lua_src\lua\lzio.h">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\strings\stringprintf.h">
+      <Filter>bind\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\strings\StringsHelper.h">
+      <Filter>bind\strings</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\memory\atomicops.h">
+      <Filter>bind\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\memory\basictypes.h">
+      <Filter>bind\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\memory\ref_counted.h">
+      <Filter>bind\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\manager\ILuaCallBack.h">
+      <Filter>bind\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\manager\LuaEngineImpl.h">
+      <Filter>bind\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\manager\LuaEngineMgr.h">
+      <Filter>bind\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\manager\LuaEngineWrapper.h">
+      <Filter>bind\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\interface\AutoPtrT.h">
+      <Filter>bind\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\interface\ILuaApiT.h">
+      <Filter>bind\interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\bind\enginehelp\Mutex.h">
+      <Filter>bind\enginehelp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="luaband.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\enginehelp\iLuaAcitveScriptImpl.cpp">
+      <Filter>bind\enginehelp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\enginehelp\iLuaScriptEngineImpl.cpp">
+      <Filter>bind\enginehelp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\enginehelp\LuaDebug.cpp">
+      <Filter>bind\enginehelp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\enginehelp\LuaEngine.cpp">
+      <Filter>bind\enginehelp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\enginehelp\LuaHelper.cpp">
+      <Filter>bind\enginehelp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\enginehelp\ScriptLibStorage.cpp">
+      <Filter>bind\enginehelp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lapi.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lauxlib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lbaselib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lbitlib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lcode.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lcorolib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lctype.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\ldblib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\ldebug.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\ldo.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\ldump.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lfunc.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lgc.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\linit.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\liolib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\llex.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lmathlib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lmem.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\loadlib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lobject.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lopcodes.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\loslib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lparser.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lstate.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lstring.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lstrlib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\ltable.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\ltablib.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\ltm.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lua.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\luac.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lundump.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lvm.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\lua_src\lua\lzio.c">
+      <Filter>bind\lua_src\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\strings\stringprintf.cpp">
+      <Filter>bind\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\strings\StringsHelper.cpp">
+      <Filter>bind\strings</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\manager\LuaEngineImpl.cpp">
+      <Filter>bind\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\manager\LuaEngineMgr.cpp">
+      <Filter>bind\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\manager\LuaEngineWrapper.cpp">
+      <Filter>bind\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\bind\enginehelp\Mutex.cpp">
+      <Filter>bind\enginehelp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="luaband.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\bind\lua_src\lua\Makefile">
+      <Filter>bind\lua_src\lua</Filter>
+    </None>
+  </ItemGroup>
+</Project>
