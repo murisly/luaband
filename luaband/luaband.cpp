@@ -26,11 +26,11 @@ int getBuffer(LPCSTR lpFilePath, std::vector<char>& vecBuff) {
 		return 1;
 	}
 
-	file.seekg(0, std::ios::end);          //设置文件指针到文件流的尾部
-	std::ios::pos_type ps = file.tellg();  //读取文件指针的位置
+	file.seekg(0, std::ios::end);
+	std::ios::pos_type ps = file.tellg();
 	unsigned int uSize = (unsigned int)ps;
 
-	file.seekg(0, std::ios::beg);          //设置文件指针到文件流的头部
+	file.seekg(0, std::ios::beg);
 	vecBuff.resize(uSize,0);
 	file.read(&vecBuff[0],uSize);
 	file.close();
